@@ -8,18 +8,6 @@ async function split() {
 
     console.log(activeTab.url);
 
-    // var data = `<!DOCTYPE html>
-    // <html>
-    // <head>
-    //   <title>Two Iframe Windows Example</title>
-    //   <link rel="stylesheet" href="main.css">
-    // </head>
-    // <body>
-    //   <iframe id="iframe1" src="`+ activeTab.url +`" scrolling="yes"></iframe>
-    //   <iframe id="iframe2" src="`+ activeTab.url +`"></iframe>
-    // </body>
-    // </html>`;
-
     var data = `<!DOCTYPE html> <html> <head> <title>Two Iframe Windows Example</title> <link rel="stylesheet" href="main.css"> </head> <body><iframe id="iframe1" src="`+ activeTab.url +`" scrolling="yes"></iframe><iframe id="iframe2" src="`+ activeTab.url +`"></iframe></body></html>`;
 
     var tester = `<html>
@@ -41,17 +29,6 @@ async function split() {
             tabId: activeTab.id,
         }, 
         func: getHTML,
-        // func: () => {    
-        //     document.write(`<html>
-        //     <head>
-        //       <title>A Simple HTML Document</title>
-        //     </head>
-        //     <body>
-        //       <p>This is a very simple HTML document</p>
-        //       <p>It only has two paragraphs</p>
-        //     </body>
-        //   </html>`);
-        // },
     });
 }
 

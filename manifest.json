@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "TabSplit",
+  "description": "Split a tab.",
+  "version": "0.1",
+  "permissions": ["tabs","activeTab","scripting","declarativeContent"],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "css": ["main.css"]
+    }]
+}

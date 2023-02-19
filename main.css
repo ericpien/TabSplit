@@ -18,9 +18,9 @@
 }
 
 .button {
-  background-color: #a8afec;
+  background-color: #232539;
   border: none;
-  border-radius: 12px;
+  
   color: rgb(0, 0, 0);
   padding: 10px 24px;
   text-align: center;
@@ -32,14 +32,14 @@
 
 .splitButton {
   background-color: white;
-  border: #a8afec;
+  border: #232539;
   color: rgb(0, 0, 0);
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .splitButton:hover {
-  background-color: #a8afec;
-  border: #a8afec;
+  background-color: #232539;
+  border: #232539;
   color: rgb(255, 255, 255);
 }
 
@@ -51,4 +51,12 @@
   left: 50%;
   margin-left: -3px;
   top: 0;
+}
+
+.popupBody {
+  background-color: white;
+  border: black;
+  height: 45px;
+  width: 77px;
+  vertical-align: middle;
 }

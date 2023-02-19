@@ -1,23 +1,23 @@
-.iframeWindow {
-  width: 100vw;
-  height: 50vh;
+.iframe-window {
+  width: 100%;
+  height: 49vh;
   position: relative;
   overflow: scroll;
-  border: none;
   resize: vertical;
+  border: none; 
 }
 
 .iframe-window-vertical {
-  width: 49vw;
+  width: 50vh;
   height: 100vh;
   position: relative;
   overflow: scroll;
-  border: none; 
   resize: horizontal;
+  border: none; 
   float: left;
 }
 
-.button {
+#split2 {
   background-color: #a8afec;
   border: none;
   border-radius: 12px;
@@ -29,21 +29,6 @@
   font-size: 10px;
 }
 
-
-.splitButton {
-  background-color: white;
-  border: #a8afec;
-  color: rgb(0, 0, 0);
-  border-radius: 10px;
-}
-
-.splitButton:hover {
-  background-color: #a8afec;
-  border: #a8afec;
-  color: rgb(255, 255, 255);
-}
-
-
 .vr {
   border-left: 6px solid green;
   height: 100vh;
@@ -51,4 +36,5 @@
   left: 50%;
   margin-left: -3px;
   top: 0;
+  z-index: -1;
 }

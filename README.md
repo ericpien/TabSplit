@@ -3,7 +3,7 @@
 
 **Description**: Chrome extension to enable split view of a single tab.
 
-**Status**: Pending Review before publication on Chrome Web Store
+**Status**: Published on Chrome Web Store @ https://chrome.google.com/webstore/detail/tabsplit/khcnjlofjhioabfnnckgdhahahpiodol
 
 ## Screenshots
 -----
